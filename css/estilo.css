@@ -203,7 +203,7 @@ section#bloque2 {
   position: relative;
   margin: 0px auto;
   width: 100%;
-  top: 350px;
+  top: 400px;
   height: 650px;
   background: url(../img/back02.png);
   background-size: cover;
@@ -211,7 +211,7 @@ section#bloque2 {
 
 #bisoft {
   position: absolute;
-  top: -180px;
+  top: 50%;
   left: 43%;
   width: 15%;
 }
@@ -219,7 +219,7 @@ section#bloque2 {
 nav#botonesGrupo {
   position: relative;
   margin: auto;
-  top: 350px;
+  top: 250px;
   width: 700px;
   height: 40px;
   background: linear-gradient(#f5344d, rgb(212, 215, 12));
@@ -363,7 +363,7 @@ section#bloque5 {
   color: rgb(0, 0, 0);
   overflow-y: scroll;
   overflow-x: hidden;
-  top: -150px;
+  top: -10px;
 }
 
 #biografia::-webkit-scrollbar {

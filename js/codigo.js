@@ -21,7 +21,7 @@ for (var i = 0; i < cargaObj.length; i++) {
 $(document).mousemove(function (e) {
   var posX = e.clientX / 100;
 
-  $("#bisoft").css({ left: 30 + posX / 2 + "%" });
+  $("#bisoft").css({ left: 10 + posX / 2 + "%" });
   $("#ley").css({ left: 10 + posX / 2 + "%" });
   $("#adsum").css({ left: 10 + posX / 2 + "%" });
   $("#chubb").css({ left: 10 + posX / 2 + "%" });
@@ -35,8 +35,7 @@ $(document).mousemove(function (e) {
 $(window).scroll(function () {
   var posY = window.pageYOffset;
 
-  $("#bloque2").css({ top: -180 - posY / 3 + "px" });
-  $("#bisoft").css({ top: -250 + posY / 5 + "px" });
+  $("#bloque2").css({ top: -50 - posY / 3 + "px" });
   $("#empresas").css({ "margin-left": -100 + posY / 3.3 + "%" });
 
   if (posY > $("#bloque2").offset().top) {

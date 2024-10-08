@@ -1,7 +1,7 @@
 $(document).mousemove(function (e) {
   var posX = e.clientX / 100;
 
-  $("#bisoft").css({ left: 30 + posX / 2 + "%" });
+  $("#bisoft").css({ left: 10 + posX / 2 + "%" });
   $("#ley").css({ left: 10 + posX / 2 + "%" });
   $("#adsum").css({ left: 10 + posX / 2 + "%" });
   $("#chubb").css({ left: 10 + posX / 2 + "%" });
