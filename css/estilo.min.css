@@ -294,8 +294,8 @@ input[type="search"] {
 #biografia {
   position: relative;
   margin: auto;
-  width: 800px;
-  height: 400px;
+  width: 70%;
+  height: 600px;
   color: rgb(0, 0, 0);
   overflow-y: scroll;
   overflow-x: hidden;
