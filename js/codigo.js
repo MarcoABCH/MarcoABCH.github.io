@@ -80,7 +80,7 @@ $("nav#botonesGrupo ul li").click(function () {
 
 $(".flexslider").flexslider({
   randomize: true,
-  slideshowSpeed: 3000,
+  slideshowSpeed: 15000,
   animation: "slide",
 });
 
