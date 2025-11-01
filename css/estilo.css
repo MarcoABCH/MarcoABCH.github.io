@@ -359,11 +359,11 @@ section#bloque5 {
   position: relative;
   margin: auto;
   width: 70%;
-  height: 600px;
+  height: 50%;
   color: rgb(0, 0, 0);
   overflow-y: scroll;
   overflow-x: hidden;
-  top: -10px;
+  top: -5px;
 }
 
 #biografia::-webkit-scrollbar {
@@ -454,4 +454,55 @@ SCROLL UP
   height: 50px;
   border-radius: 100%;
   background: url(../img/flecha.jpg);
+}
+
+#bloque6 {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#bloque6 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.cards-portafolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card-item {
+  width: 250px;
+  background: #ffffffd9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.card-item:hover {
+  transform: translateY(-6px);
+}
+
+.card-item img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #0066ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
 }
